@@ -54,20 +54,19 @@ Clone the repository:
 git clone https://github.com/ManarJebali/image-preprocessing-platform.git
 cd image-preprocessing-platform
 
-# Install dependencies:
+## Install dependencies:
 pip install -r requirements.txt
 
-🧠 Use Cases
+# 🧠 Use Cases
 
 This project can be used in:
-
-Computer vision model training pipelines
-Image classification datasets preparation
-Object detection preprocessing
-Academic ML experiments
-Production ML systems
-📌 Tech Stack
-Python 🐍
-NumPy
-OpenCV
-PIL (Pillow)
+* Computer vision model training pipelines
+* Image classification datasets preparation
+* Object detection preprocessing
+* Academic ML experiments
+* Production ML systems
+# 📌 Tech Stack
+* Python 🐍
+* NumPy
+* OpenCV
+* PIL (Pillow)
