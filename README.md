@@ -1,16 +1,73 @@
-# React + Vite
+# Image Preprocessing Platform 🧠✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modular and scalable image preprocessing pipeline designed for computer vision workflows.  
+This project provides a clean, extensible structure for preparing images for machine learning models, including classification, detection, and deep learning pipelines.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+The **Image Preprocessing Platform** standardizes and automates common image preprocessing operations such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Image loading and validation
+- Resizing and normalization
+- Color space transformations
+- Noise reduction and filtering
+- Data augmentation
+- Batch preprocessing for datasets
 
-## Expanding the ESLint configuration
+It is designed to be reusable across multiple computer vision projects and can easily integrate into ML training pipelines.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Key Features
+
+- ⚡ Fast and lightweight preprocessing pipeline
+- 🧩 Modular architecture (easy to extend or customize)
+- 📦 Batch processing support for datasets
+- 🖼️ Multiple image format support (JPG, PNG, etc.)
+- 🔄 Reusable preprocessing components for ML workflows
+- 🧪 Clean separation between preprocessing steps
+
+---
+
+## 🏗️ Project Structure
+mage-preprocessing-platform/
+│
+├── src/
+│ ├── loaders/ # Image loading utilities
+│ ├── preprocessing/ # Core preprocessing operations
+│ ├── pipelines/ # Predefined processing pipelines
+│ └── utils/ # Helper functions
+│
+├── data/ # Sample or test datasets
+├── tests/ # Unit tests
+├── main.py # Entry point
+├── requirements.txt # Dependencies
+└── README.md
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+git clone https://github.com/ManarJebali/image-preprocessing-platform.git
+cd image-preprocessing-platform
+
+# Install dependencies:
+pip install -r requirements.txt
+
+🧠 Use Cases
+
+This project can be used in:
+
+Computer vision model training pipelines
+Image classification datasets preparation
+Object detection preprocessing
+Academic ML experiments
+Production ML systems
+📌 Tech Stack
+Python 🐍
+NumPy
+OpenCV
+PIL (Pillow)
